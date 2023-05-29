@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#fcf5f4">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/splash_crop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:fontFamily="@font/oswaldmedium"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="DDBSSJ"
+            android:textSize="36sp"
+            android:gravity="center_vertical"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="50dp"-->
+
+<!--            android:paddingLeft="12dp"-->
+<!--            android:paddingRight="8dp"-->
+<!--            android:paddingBottom="8dp"-->
+<!--            android:text="Keeping you safe!"-->
+<!--            android:textSize="16sp" />-->
+    </LinearLayout>
+
+
+</LinearLayout>

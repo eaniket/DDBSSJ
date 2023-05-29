@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DDBSSJ</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="maps_una_sahib"><a href = "https://www.google.com/maps/place/Darbar+Baba+Sahib+Singh+Bedi/@31.4654669,76.2633995,17z/data=!3m1!4b1!4m6!3m5!1s0x391ada8361824761:0x52c2e72a99a998a3!8m2!3d31.4654669!4d76.2655882!16s%2Fg%2F1hg4tz1ks">Una Sahib Google Maps Location</a></string>
+    <string name="maps_mansooran"><a href = "https://goo.gl/maps/hsaaxi6U7NBUTnkU6">Mansooran Google Maps Location</a></string>
+</resources>

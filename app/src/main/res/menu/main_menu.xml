@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sakhis"
+            android:icon="@drawable/ic_baseline_history_edu_24"
+            android:title="Sakhis(History)" />
+        <item
+            android:id="@+id/kidsection"
+            android:icon="@drawable/ic_baseline_child_care_16"
+            android:title="Kid's Section" />
+        <item
+            android:id="@+id/iGranth"
+            android:icon="@drawable/ic_baseline_search_16"
+            android:title="Gurbani Search(iGranth)" />
+        <item
+            android:id="@+id/donation"
+            android:icon="@drawable/ic_baseline_money_16"
+            android:title="Donations" />
+        <item
+            android:id="@+id/books"
+            android:icon="@drawable/ic_baseline_menu_book_16"
+            android:title="Books" />
+        <item
+            android:id="@+id/audio"
+            android:icon="@drawable/ic_baseline_audiotrack_24"
+            android:title="Audio" />
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share App" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="Feedback" />
+        </menu>
+    </item>
+</menu>

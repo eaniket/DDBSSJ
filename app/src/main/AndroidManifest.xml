@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ddbssj">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DDBSSJ"
+        android:name="androidx.multidex.MultiDexApplication"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".GalleryActivity"></activity>
+        <activity android:name=".DetailedGalleryActivity"></activity>
+        <activity android:name=".DetailedEventActivity"></activity>
+        <activity android:name=".JoinWAActivity"></activity>
+        <activity android:name=".ContactUsActivity"></activity>
+        <activity android:name=".DonationActivity"></activity>
+        <activity android:name=".SakhisActivity"></activity>
+        <activity android:name=".SecondarySakhisActivity"></activity>
+        <activity android:name=".ChapterSakhisActivity"></activity>
+        <activity android:name=".VideoSakhisActivity"></activity>
+        <activity android:name=".DetailedChapterActivity"></activity>
+        <activity android:name=".BooksActivity"></activity>
+    </application>
+
+</manifest>
